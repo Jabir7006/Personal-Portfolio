@@ -1,0 +1,208 @@
+.flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-start {
+    justify-content: flex-start;
+  }
+  
+  .h-20 {
+    height: 5rem;
+  }
+  
+  .rounded-xl {
+    border-radius: 0.75rem;
+  }
+  
+  .text-gray-800 {
+    color: #2d3748;
+  }
+  
+  .dark\:text-zinc-300 {
+    color: #718096;
+  }
+  
+  .bg-gradient-to-l {
+    background-image: linear-gradient(to left, #fff, #d1d5db);
+  }
+  
+  .from-white {
+    background-color: #fff;
+  }
+  
+  .to-zinc-50 {
+    background-color: #f3f4f6;
+  }
+  
+  .dark\:bg-gradient-to-l {
+    background-image: linear-gradient(to left, #111827, #1f2937);
+  }
+  
+  .dark\:from-stone-900 {
+    background-color: #1f2937;
+  }
+  
+  .dark\:to-neutral-900 {
+    background-color: #111827;
+  }
+  
+  .ring-1 {
+    border-width: 1px;
+  }
+  
+  .ring-stone-200 {
+    border-color: #e5e7eb;
+  }
+  
+  .dark\:ring-stone-800 {
+    border-color: #4b5563;
+  }
+  
+  .select-none {
+    user-select: none;
+  }
+  
+  .group:hover .rotate-45 {
+    transform: rotate(45deg);
+  }
+  
+  .-mt-20 {
+    margin-top: -5rem;
+  }
+  
+  .ml-6 {
+    margin-left: 1.5rem;
+  }
+  
+  .bg-zinc-50 {
+    background-color: #f3f4f6;
+  }
+  
+  .dark\:bg-neutral-900 {
+    background-color: #111827;
+  }
+  
+  .group:hover .p-1\.5 {
+    padding: 0.375rem;
+  }
+  
+  .duration-200 {
+    transition-duration: 0.2s;
+  }
+  
+  .w-10 {
+    width: 2.5rem;
+  }
+  
+  .h-10 {
+    height: 2.5rem;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .group:hover .rounded-xl {
+    border-radius: 0.75rem;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .rounded-2xl {
+    border-radius: 1rem;
+  }
+  
+  .text-md {
+    font-size: 1.125rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-zinc-800 {
+    color: #4b5563;
+  }
+  
+  .dark\:text-zinc-300 {
+    color: #718096;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  
+  .gap-2 {
+    gap: 0.5rem;
+  }
+  
+  .col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+  
+  .col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+  
+  .text-zinc-400 {
+    color: #9ca3af;
+  }
+  
+  .dark\:text-zinc-400 {
+    color: #9ca3af;
+  }
+  
+  .truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .title {
+    title: "React JS Framework";
+  }
+  
+  .h-1\.5 {
+    height: 0.375rem;
+  }
+  
+  .w-4 {
+    width: 1rem;
+  }
+  
+  .bg-violet-400 {
+    background-color: #8b5cf6;
+  }
+  
+  .rounded-l {
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+  }
+  
+  .bg-stone-300 {
+    background-color: #d1d5db;
+  }
+  
+  .dark\:bg-stone-700 {
+    background-color: #4b5563;
+  }
+  
+  .rounded-r {
+    border-top-right-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+  }
+  
