@@ -1,41 +1,52 @@
 import React from "react";
-import { FaHtml5,FaCss3Alt, FaReact, FaNodeJs, FaBootstrap, FaWordpress, } from "react-icons/fa";
+import {
+  FaBootstrap,
+  FaCss3Alt,
+  FaHtml5,
+  FaNodeJs,
+  FaReact,
+  FaWordpress,
+} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTailwindcss,SiMongodb, SiExpressvpn  } from "react-icons/si";
+import { RiCustomerServiceFill } from "react-icons/ri";
+import {
+  SiExpressvpn,
+  SiMongodb,
+  SiNextdotjs,
+  SiTailwindcss,
+} from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
-import { SiNextdotjs } from "react-icons/si";
-import { RiCustomerServiceFill  } from "react-icons/ri";
-
-
 
 import {
+  FaBriefcase,
+  FaCode,
+  FaEnvelopeOpen,
+  FaFolderOpen,
+  FaGraduationCap,
   FaHome,
   FaUser,
-  FaFolderOpen,
-  FaEnvelopeOpen,
-  FaBriefcase,
-  FaGraduationCap,
-  FaCode,
 } from "react-icons/fa";
-import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
+import { FiExternalLink, FiFileText, FiUser } from "react-icons/fi";
 
 import Work1 from "./assets/work1.png";
 import Work2 from "./assets/work2.png";
 import Work3 from "./assets/work3.png";
 import Work4 from "./assets/work4.png";
-import Work5 from "./assets/project-5.jpg";
-import Work6 from "./assets/project-6.jpg";
+import Work5 from "./assets/work5.png";
+import Work6 from "./assets/work6.png";
+import Work7 from "./assets/work7.png";
+import Work8 from "./assets/work8.png";
 
+import Theme4 from "./assets/blue.png";
+import Theme3 from "./assets/blueviolet.png";
+import Theme5 from "./assets/goldenrod.png";
+import Theme9 from "./assets/green.png";
+import Theme6 from "./assets/magenta.png";
+import Theme8 from "./assets/orange.png";
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
-import Theme3 from "./assets/blueviolet.png";
-import Theme4 from "./assets/blue.png";
-import Theme5 from "./assets/goldenrod.png";
-import Theme6 from "./assets/magenta.png";
-import Theme7 from "./assets/yellowgreen.png";
-import Theme8 from "./assets/orange.png";
-import Theme9 from "./assets/green.png";
 import Theme10 from "./assets/yellow.png";
+import Theme7 from "./assets/yellowgreen.png";
 
 export const links = [
   {
@@ -61,7 +72,7 @@ export const links = [
   {
     id: 4,
     name: "Services",
-    icon: <RiCustomerServiceFill  className="nav__icon" />,
+    icon: <RiCustomerServiceFill className="nav__icon" />,
     path: "/services",
   },
 
@@ -189,8 +200,6 @@ export const resume = [
     desc: "From 2021 to 2024, I've been the driving force behind impactful web development as a Backend Developer specializing in the MERN stack. Crafting seamless and efficient solutions, I bring expertise in MongoDB, Express.js, React, and Node.js. Let's elevate your digital presence together! #WebDevelopment #MERNstack 🔧💻",
   },
 
- 
-
   {
     id: 4,
     category: "education",
@@ -222,72 +231,119 @@ export const resume = [
 export const skills = [
   {
     id: 1,
-    title: <div className="title_style"><FaHtml5 size={20}/> Html</div>,
+    title: (
+      <div className="title_style">
+        <FaHtml5 size={20} /> Html
+      </div>
+    ),
     percentage: "90",
   },
 
   {
     id: 2,
-    title: <div className="title_style"><FaCss3Alt size={20}/> Css</div>,
+    title: (
+      <div className="title_style">
+        <FaCss3Alt size={20} /> Css
+      </div>
+    ),
     percentage: "75",
   },
 
   {
     id: 3,
-    title: <div className="title_style"><IoLogoJavascript size={18}/> Javascript</div>,
+    title: (
+      <div className="title_style">
+        <IoLogoJavascript size={18} /> Javascript
+      </div>
+    ),
     percentage: "70",
   },
 
-  
   {
     id: 4,
-    title: <div className="title_style"><FaReact size={20}/> React</div>,
+    title: (
+      <div className="title_style">
+        <FaReact size={20} /> React
+      </div>
+    ),
     percentage: "85",
   },
 
   {
     id: 5,
-    title: <div className="title_style"><SiMongodb size={20}/> MongoDB</div>,
+    title: (
+      <div className="title_style">
+        <SiMongodb size={20} /> MongoDB
+      </div>
+    ),
     percentage: "75",
   },
 
   {
     id: 6,
-    title: <div className="title_style"><FaNodeJs size={20}/> NodeJs</div>,
+    title: (
+      <div className="title_style">
+        <FaNodeJs size={20} /> NodeJs
+      </div>
+    ),
     percentage: "75",
   },
 
   {
     id: 7,
-    title: <div className="title_style"><SiExpressvpn size={20}/> ExpressJs</div>,
+    title: (
+      <div className="title_style">
+        <SiExpressvpn size={20} /> ExpressJs
+      </div>
+    ),
     percentage: "80",
   },
 
   {
     id: 8,
-    title: <div className="title_style"><SiTailwindcss size={20}/> Tailwind</div>,
+    title: (
+      <div className="title_style">
+        <SiTailwindcss size={20} /> Tailwind
+      </div>
+    ),
     percentage: "90",
   },
   {
     id: 9,
-    title: <div className="title_style"><FaBootstrap size={20}/> Bootstrap</div>,
+    title: (
+      <div className="title_style">
+        <FaBootstrap size={20} /> Bootstrap
+      </div>
+    ),
     percentage: "80",
   },
   {
     id: 10,
-    title: <div className="title_style"><FaWordpress size={20}/> Wordpress</div>,
+    title: (
+      <div className="title_style">
+        <FaWordpress size={20} /> Wordpress
+      </div>
+    ),
     percentage: "60",
   },
   {
     id: 11,
-    title: <div className="title_style"><TbBrandRedux size={20}/> Redux</div>,
+    title: (
+      <div className="title_style">
+        <TbBrandRedux size={20} /> Redux
+      </div>
+    ),
     percentage: "70",
   },
 
   {
     id: 12,
-    title: <div className="title_style"><SiNextdotjs size={20}/>
- Next.Js</div>,
+    title: (
+      <div className="title_style">
+        <SiNextdotjs size={20} />
+        Next.Js
+      </div>
+    ),
     percentage: "81",
   },
 ];
@@ -296,27 +352,27 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: "Photo Editing",
+    title: "E-Commerce Website",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
+        desc: "Website",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "none",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Photoshop",
+        title: "Technology : ",
+        desc: "Mern Stack",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "http://lnkiy.in/work-1",
       },
     ],
   },
@@ -324,7 +380,7 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: "Website Design",
+    title: "E-Commerce Website",
     details: [
       {
         icon: <FiFileText />,
@@ -334,17 +390,17 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "none",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
+        title: "Technology : ",
         desc: "React JS",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "http://lnkiy.in/work-2",
       },
     ],
   },
@@ -352,27 +408,27 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: "Video Editing",
+    title: "Portfolio Website",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Video",
+        desc: "Website",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "none",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
+        title: "Technology : ",
+        desc: "React JS",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "http://lnkiy.in/work-3",
       },
     ],
   },
@@ -380,27 +436,27 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: "Video Editing",
+    title: "Blog Website",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Video",
+        desc: "Website",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "none",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
+        title: "Technology : ",
+        desc: "Mern Stack",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "http://lnkiy.in/work-4",
       },
     ],
   },
@@ -408,7 +464,7 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: "Landing Page",
+    title: "Ai Website",
     details: [
       {
         title: "Project : ",
@@ -416,15 +472,15 @@ export const portfolio = [
       },
       {
         title: "Client : ",
-        desc: "Dribble",
+        desc: "none",
       },
       {
-        title: "Language : ",
-        desc: "React JS, Node JS",
+        title: "Technology : ",
+        desc: "React JS",
       },
       {
         title: "Preview : ",
-        desc: "https://full-e-commerce-projectb-by-jabir.netlify.app",
+        desc: "http://lnkiy.in/work-5",
       },
     ],
   },
@@ -432,27 +488,81 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: "Photo Editing",
+    title: "Social Media Website",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
+        desc: "Website",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "none",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Photoshop",
+        title: "Technology : ",
+        desc: "React JS, Node Js",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dibble.com",
+        desc: "http://lnkiy.in/work-6",
+      },
+    ],
+  },
+  {
+    id: 7,
+    img: Work7,
+    title: "Ai Website",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Website",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "none",
+      },
+      {
+        icon: <FaCode />,
+        title: "Technology : ",
+        desc: "Next Js",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "http://lnkiy.in/work-7",
+      },
+    ],
+  },
+  {
+    id: 8,
+    img: Work8,
+    title: "Ai Text To Image Website",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Website",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "none",
+      },
+      {
+        icon: <FaCode />,
+        title: "Technology : ",
+        desc: "Next Js",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "http://lnkiy.in/work-8",
       },
     ],
   },
@@ -461,10 +571,9 @@ export const portfolio = [
 export const services = [
   {
     id: 1,
-    title: ""
-    
-  }
-]
+    title: "",
+  },
+];
 
 export const themes = [
   {

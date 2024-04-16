@@ -28,10 +28,10 @@ function PortfolioItem({ img, title, details }) {
                 return (
                   <li className="modal__item" key={index}>
                     <span className="item__ico">{icon}</span>
-
+                  
                     <div>
                       <span className="item__title">{title}</span>
-                      <span className="item__details">{desc}</span>
+                      <a href={desc.startsWith('http') && desc } target="_blank" rel="noreferrer" className={`item__details ${desc.startsWith('http') && 'item__link'}`}>{desc}</a>
                     </div>
                   </li>
                 );
